@@ -7,11 +7,13 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SportsModule } from './sports/sports.module';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
