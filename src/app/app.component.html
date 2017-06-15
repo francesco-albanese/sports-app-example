@@ -1,0 +1,16 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a routerLink="" class="navbar-brand">Test Sports</a>
+        </div>
+
+        <div class="navbar-default">
+            <ul class="nav navbar-nav">
+                <li routerLinkActive="active"><a [routerLink]="['/home']">Home</a> </li>
+                <li routerLinkActive="active"><a [routerLink]="['/sport']">Sports</a> </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<router-outlet></router-outlet>
